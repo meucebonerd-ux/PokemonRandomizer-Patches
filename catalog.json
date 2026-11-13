@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "catalog_version": 2,
+  "catalog_version": 3,
   "updated_at": "2026-11-13",
   "categories": [
     {
@@ -286,6 +286,40 @@
       ],
       "source_url": "https://github.com/NobodySociety/modernpokeemerald",
       "distribution": "Projeto e código-fonte públicos; não hospedar ROM compilada sem autorização.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "squidgy-ruby-sapphire-challenge",
+      "name": "Ruby & Sapphire Challenge Patches",
+      "platform": "GBA",
+      "version": "v1.1.1",
+      "type": "patch",
+      "format": "IPS",
+      "base_game": "Pokémon Ruby ou Pokémon Sapphire",
+      "compatibility": "ROMs inglesas correspondentes. Ruby SHA-1: f28b6ffc97847e94a6c21a63cacf633ee5c8df1e. Sapphire SHA-1: 3ccbbd45f8553c36463f13b938e833f652b793e4.",
+      "description": "Patches de desafio com Giftlocke, seleção personalizada de iniciais, modo Four Moves e ferramentas de campo reutilizáveis.",
+      "features": [
+        "Giftlocke: inicial aleatório e um Pokémon aleatório recebido após cada Ginásio.",
+        "No Giftlocke, capturas selvagens, ovos, trocas e outros presentes são bloqueados.",
+        "A derrota de toda a equipe encerra a tentativa e reinicia o progresso, preservando as opções escolhidas.",
+        "Limite de nível opcional que avança conforme os líderes de Ginásio e a Liga.",
+        "Modo Four Moves: escolha quatro golpes permanentes para o Pokémon inicial.",
+        "Ferramentas reutilizáveis substituem golpes de campo como Cut, Fly, Surf, Strength, Flash e Teleport."
+      ],
+      "patch_files": [
+        {
+          "game": "Pokémon Ruby",
+          "url": "https://squidgy.site/Patches/GamePatches/RS/ChallengeRunPatchRuby.ips",
+          "base_sha1": "f28b6ffc97847e94a6c21a63cacf633ee5c8df1e"
+        },
+        {
+          "game": "Pokémon Sapphire",
+          "url": "https://squidgy.site/Patches/GamePatches/RS/ChallengeRunPatchSapphire.ips",
+          "base_sha1": "3ccbbd45f8553c36463f13b938e833f652b793e4"
+        }
+      ],
+      "source_url": "https://squidgy.site/rom-hacks/rs/",
+      "distribution": "Arquivos IPS hospedados pelo criador; baixar o arquivo correspondente ao jogo e à revisão.",
       "apply_stage": "standalone"
     }
   ]
