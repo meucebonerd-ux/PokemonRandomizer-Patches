@@ -1,6 +1,292 @@
 {
   "schema_version": 1,
-  "catalog_version": 1,
+  "catalog_version": 2,
   "updated_at": "2026-11-13",
-  "patches": []
+  "categories": [
+    {
+      "id": "nuzlocke",
+      "name": "Nuzlocke e desafios",
+      "description": "Patches e jogos modificados com regras Nuzlocke, Hardcore Nuzlocke ou Giftlocke."
+    }
+  ],
+  "patches": [
+    {
+      "id": "jake-firered-hcnl",
+      "name": "Hardcore Nuzlocke / Minimal Grinding — FireRed",
+      "platform": "GBA",
+      "version": "v1c",
+      "type": "patch",
+      "format": "BPS",
+      "base_game": "Pokémon FireRed",
+      "compatibility": "ROM original em inglês; MD5: e26ee0d44e809351c8ce2d73c7400cdd",
+      "description": "Patch de desafio Hardcore Nuzlocke com redução do grinding.",
+      "features": [
+        "Zera os EVs recebidos em batalha e bloqueia vitaminas.",
+        "Adiciona Rare Candies às lojas por 1₽ para eliminar o grinding de experiência.",
+        "Exige apelidos para os Pokémon.",
+        "Bloqueia itens de cura e itens de aumento de atributos durante batalhas, mantendo Poké Balls permitidas.",
+        "O modo de batalha Set é aplicado."
+      ],
+      "manual_rules": [
+        "Capturar apenas o primeiro encontro de cada local.",
+        "Aplicar morte permanente e encerrar a tentativa ao perder toda a equipe.",
+        "Respeitar limites de nível definidos pelo próximo chefe."
+      ],
+      "patch_url": "https://jakebarn.es/files/firered-hcnl-v1c.bps",
+      "source_url": "https://jakebarn.es/pokemon",
+      "distribution": "Download direto do criador; não espelhar o arquivo sem autorização.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "jake-leafgreen-hcnl",
+      "name": "Hardcore Nuzlocke / Minimal Grinding — LeafGreen",
+      "platform": "GBA",
+      "version": "v1c",
+      "type": "patch",
+      "format": "BPS",
+      "base_game": "Pokémon LeafGreen",
+      "compatibility": "ROM original em inglês; MD5: 612ca9473451fa42b51d1711031ed5f6",
+      "description": "Versão LeafGreen do patch Hardcore Nuzlocke com redução do grinding.",
+      "features": [
+        "Zera os EVs recebidos em batalha e bloqueia vitaminas.",
+        "Adiciona Rare Candies às lojas por 1₽.",
+        "Exige apelidos para os Pokémon.",
+        "Bloqueia itens de batalha, exceto Poké Balls.",
+        "Aplica o modo Set."
+      ],
+      "manual_rules": [
+        "Primeiro encontro por local.",
+        "Morte permanente e reinício após derrota total.",
+        "Limites de nível por chefe."
+      ],
+      "patch_url": "https://jakebarn.es/files/leafgreen-hcnl-v1c.bps",
+      "source_url": "https://jakebarn.es/pokemon",
+      "distribution": "Download direto do criador; não espelhar o arquivo sem autorização.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "jake-ruby-hcnl",
+      "name": "Hardcore Nuzlocke / Minimal Grinding — Ruby",
+      "platform": "GBA",
+      "version": "v1",
+      "type": "patch",
+      "format": "BPS",
+      "base_game": "Pokémon Ruby",
+      "compatibility": "ROM original em inglês; MD5: 53d1a2027ab49df34a689faa1fb14726",
+      "description": "Patch Hardcore Nuzlocke para Ruby, com ajustes para reduzir o grinding.",
+      "features": [
+        "Zera os EVs recebidos em batalha e bloqueia vitaminas.",
+        "Rare Candies nas lojas por 1₽.",
+        "Apelidos obrigatórios.",
+        "Itens de batalha bloqueados, exceto Poké Balls.",
+        "Modo Set aplicado."
+      ],
+      "manual_rules": [
+        "Primeiro encontro por local.",
+        "Morte permanente e reinício após derrota total.",
+        "Limites de nível por chefe."
+      ],
+      "patch_url": "https://jakebarn.es/files/ruby-hcnl-v1.bps",
+      "source_url": "https://jakebarn.es/pokemon",
+      "distribution": "Download direto do criador; não espelhar o arquivo sem autorização.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "jake-sapphire-hcnl",
+      "name": "Hardcore Nuzlocke / Minimal Grinding — Sapphire",
+      "platform": "GBA",
+      "version": "v1",
+      "type": "patch",
+      "format": "BPS",
+      "base_game": "Pokémon Sapphire",
+      "compatibility": "ROM original em inglês; MD5: f34e91399c719812e66e2c828a2e93d7",
+      "description": "Patch Hardcore Nuzlocke para Sapphire, com ajustes para reduzir o grinding.",
+      "features": [
+        "Zera os EVs recebidos em batalha e bloqueia vitaminas.",
+        "Rare Candies nas lojas por 1₽.",
+        "Apelidos obrigatórios.",
+        "Itens de batalha bloqueados, exceto Poké Balls.",
+        "Modo Set aplicado."
+      ],
+      "manual_rules": [
+        "Primeiro encontro por local.",
+        "Morte permanente e reinício após derrota total.",
+        "Limites de nível por chefe."
+      ],
+      "patch_url": "https://jakebarn.es/files/sapphire-hcnl-v1.bps",
+      "source_url": "https://jakebarn.es/pokemon",
+      "distribution": "Download direto do criador; não espelhar o arquivo sem autorização.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "jake-emerald-hcnl",
+      "name": "Hardcore Nuzlocke / Minimal Grinding — Emerald",
+      "platform": "GBA",
+      "version": "v1",
+      "type": "patch",
+      "format": "BPS",
+      "base_game": "Pokémon Emerald",
+      "compatibility": "ROM original em inglês; MD5: 605b89b67018abcea91e693a4dd25be3",
+      "description": "Patch Hardcore Nuzlocke para Emerald, com redução do grinding.",
+      "features": [
+        "Zera os EVs recebidos em batalha e bloqueia vitaminas.",
+        "Rare Candies nas lojas por 1₽.",
+        "Apelidos obrigatórios.",
+        "Itens de batalha bloqueados, exceto Poké Balls.",
+        "Modo Set aplicado."
+      ],
+      "manual_rules": [
+        "Primeiro encontro por local.",
+        "Morte permanente e reinício após derrota total.",
+        "Limites de nível por chefe."
+      ],
+      "patch_url": "https://jakebarn.es/files/emerald-hcnl-v1.bps",
+      "source_url": "https://jakebarn.es/pokemon",
+      "distribution": "Download direto do criador; não espelhar o arquivo sem autorização.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "jake-heartgold-hcnl",
+      "name": "Hardcore Nuzlocke / Minimal Grinding — HeartGold",
+      "platform": "Nintendo DS",
+      "version": "v1a",
+      "type": "patch",
+      "format": "BPS",
+      "base_game": "Pokémon HeartGold",
+      "compatibility": "ROM original em inglês; MD5: 258cea3a62ac0d6eb04b5a0fd764d788",
+      "description": "Patch Hardcore Nuzlocke para HeartGold, com redução do grinding.",
+      "features": [
+        "Zera os EVs recebidos em batalha e bloqueia vitaminas.",
+        "Rare Candies nas lojas por 1₽.",
+        "Apelidos obrigatórios.",
+        "Itens de batalha bloqueados, exceto Poké Balls.",
+        "Modo Set aplicado."
+      ],
+      "manual_rules": [
+        "Primeiro encontro por local.",
+        "Morte permanente e reinício após derrota total.",
+        "Limites de nível por chefe."
+      ],
+      "patch_url": "https://jakebarn.es/files/heartgold-hcnl-v1a.bps",
+      "source_url": "https://jakebarn.es/pokemon",
+      "distribution": "Download direto do criador; não espelhar o arquivo sem autorização.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "jake-soulsilver-hcnl",
+      "name": "Hardcore Nuzlocke / Minimal Grinding — SoulSilver",
+      "platform": "Nintendo DS",
+      "version": "v1a",
+      "type": "patch",
+      "format": "BPS",
+      "base_game": "Pokémon SoulSilver",
+      "compatibility": "ROM original em inglês; MD5: 8a6c8888bed9e1dce952f840351b73f2",
+      "description": "Patch Hardcore Nuzlocke para SoulSilver, com redução do grinding.",
+      "features": [
+        "Zera os EVs recebidos em batalha e bloqueia vitaminas.",
+        "Rare Candies nas lojas por 1₽.",
+        "Apelidos obrigatórios.",
+        "Itens de batalha bloqueados, exceto Poké Balls.",
+        "Modo Set aplicado."
+      ],
+      "manual_rules": [
+        "Primeiro encontro por local.",
+        "Morte permanente e reinício após derrota total.",
+        "Limites de nível por chefe."
+      ],
+      "patch_url": "https://jakebarn.es/files/soulsilver-hcnl-v1a.bps",
+      "source_url": "https://jakebarn.es/pokemon",
+      "distribution": "Download direto do criador; não espelhar o arquivo sem autorização.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "squidgy-crystal-v2",
+      "name": "Crystal V2 Challenge Patch",
+      "platform": "GBC",
+      "version": "v0.4.2",
+      "type": "patch",
+      "format": "IPS",
+      "base_game": "Pokémon Crystal",
+      "compatibility": "ROMs inglesas v1.0 e v1.1; SHA-1 das bases: f4cd194bdee0d04ca4eac29e09b8e4e9d818c133 (v1.0) e f2f52230b536214ef7c9924f483392993e226cfb (v1.1)",
+      "description": "Patch de desafios para Crystal com menu interno de modos especiais.",
+      "features": [
+        "Modos Nuzlocke, Giftlocke, Challenge Run, 4 Moves e SuperMON.",
+        "Menu de opções acessado na estante à esquerda do laboratório do Professor Elm, antes de escolher o inicial.",
+        "Giftlocke reinicia a tentativa quando toda a equipe é perdida.",
+        "No Giftlocke, cada tentativa começa com um Pokémon aleatório e recebe recompensas de Ginásio conforme as regras do modo.",
+        "Inclui Pokémon da terceira geração e expansões experimentais de espécies e movimentos."
+      ],
+      "patch_url": "https://squidgy.site/rom-hacks/crystal-v2/",
+      "source_url": "https://squidgy.site/rom-hacks/crystal-v2/",
+      "distribution": "Página oficial do criador; escolher o arquivo correspondente à revisão da ROM.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "squidgy-frlg-challenge",
+      "name": "FireRed & LeafGreen Challenge Patches",
+      "platform": "GBA",
+      "version": "v0.5.1",
+      "type": "patch",
+      "format": "IPS",
+      "base_game": "Pokémon FireRed v1.0 / LeafGreen v1.0",
+      "compatibility": "ROMs inglesas v1.0. FireRed SHA-1: 41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc; LeafGreen SHA-1: 574fa542ffebb14be69902d1d36f1ec0a4afd71e",
+      "description": "Pacote de modos de desafio para FireRed e LeafGreen, incluindo Giftlocke.",
+      "features": [
+        "Giftlocke: inicial aleatório e um Pokémon aleatório recebido após cada Ginásio.",
+        "No Giftlocke, capturas selvagens, ovos, trocas e outros presentes são bloqueados.",
+        "A derrota da equipe encerra a tentativa e reinicia o progresso conforme as regras do Giftlocke.",
+        "Modos Duos, 4 Moves e SuperMON.",
+        "Seleção de iniciais com os 493 Pokémon da National Dex.",
+        "Limites de nível, opções de encontros selvagens, evolução e spinners."
+      ],
+      "patch_url": "https://squidgy.site/rom-hacks/firered/",
+      "source_url": "https://squidgy.site/rom-hacks/firered/",
+      "distribution": "Página oficial do criador; downloads separados para FireRed e LeafGreen.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "squidgy-emerald-challenge",
+      "name": "Emerald Challenge Patch",
+      "platform": "GBA",
+      "version": "v0.5.2",
+      "type": "patch",
+      "format": "IPS",
+      "base_game": "Pokémon Emerald",
+      "compatibility": "ROM inglesa; SHA-1: f3ae088181bf583e55daf962a92bb46f4f1d07b7",
+      "description": "Patch de desafios para Emerald com Giftlocke, Duos, 4 Moves e SuperMON.",
+      "features": [
+        "Giftlocke: inicial aleatório e um Pokémon aleatório recebido após cada Ginásio.",
+        "No Giftlocke, capturas selvagens, ovos, trocas e outros presentes são bloqueados.",
+        "A derrota da equipe encerra a tentativa e reinicia o progresso conforme as regras do Giftlocke.",
+        "Limite de nível opcional, Candy Jar e itens de campo reutilizáveis.",
+        "Modos Duos, 4 Moves e SuperMON.",
+        "Seleção de iniciais com os 493 Pokémon da National Dex."
+      ],
+      "patch_url": "https://squidgy.site/rom-hacks/emerald/",
+      "source_url": "https://squidgy.site/rom-hacks/emerald/",
+      "distribution": "Página oficial do criador; baixar a versão correspondente à ROM-base.",
+      "apply_stage": "standalone"
+    },
+    {
+      "id": "modern-emerald-nuzlocke",
+      "name": "Pokémon Modern Emerald",
+      "platform": "GBA",
+      "version": "Projeto ativo",
+      "type": "rom_hack",
+      "format": "ROM compilada pelo projeto",
+      "base_game": "Pokémon Emerald",
+      "compatibility": "Projeto baseado na descompilação de Pokémon Emerald; não é um patch IPS/BPS catalogado para aplicação automática.",
+      "description": "ROM hack de Emerald com opções de Nuzlocke configuráveis dentro do jogo.",
+      "features": [
+        "Modos Nuzlocke Easy, Normal e Hardcore.",
+        "Opções avançadas de dificuldade, limites de nível, tamanho da equipe e multiplicador de experiência.",
+        "Restrições de itens em batalha e EVs.",
+        "Randomizador modular integrado.",
+        "Pokémon seguidores opcionais e diversas melhorias de qualidade de vida."
+      ],
+      "source_url": "https://github.com/NobodySociety/modernpokeemerald",
+      "distribution": "Projeto e código-fonte públicos; não hospedar ROM compilada sem autorização.",
+      "apply_stage": "standalone"
+    }
+  ]
 }
